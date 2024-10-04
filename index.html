@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Enthusiast Community</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Logo">
+        </div>
+        <div class="menu-icon" id="menu-icon">
+            <i class="fa fa-bars"></i> 
+        </div>
+        <ul class="nav-links">
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            <li><a href="#community" class="nav-link">Community</a></li>
+            <li><a href="#footer" class="nav-link">Support</a></li>
+        </ul>        
+        <div class="auth-buttons">
+            <button class="login-btn">Login</button>
+            <button class="register-btn">Register</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="community" class="hero">
+        <div class="overlay">
+            <h1>The largest community of photo enthusiasts</h1>
+            <button class="join-btn">Join Today</button>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <h2>Snap photos and share like never before</h2>
+        <div class="content-row">
+            <div class="content-block">
+                <h3>Sed ut perspiciatis</h3>
+                <p>Nemo enim voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+                <button class="learn-more">Learn more</button>
+            </div>
+            <div class="content-block">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                <button class="learn-more">Learn more</button>
+            </div>
+        </div>
+
+        <div class="content-row">
+            <div class="content-block">
+                <h3>Nemo enim ipsam</h3>
+                <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+                <button class="learn-more">Learn more</button>
+            </div>
+            <div class="content-block">
+                <h3>Tempor incididunt</h3>
+                <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</p>
+                <button class="learn-more">Learn more</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="photo-section">
+        <h2>Have you ever posted any photo on social media?</h2>
+        <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+
+        <div class="photo-content">
+            <div class="photo-text">
+            <div class="photo-card">
+                    <h3>Sed ut perspiciatis</h3>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+            </div>
+                <div class="photo-card">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="photo-card">
+                    <h3>Nemo enim ipsam</h3>
+                    <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+                </div>
+            </div>
+            <div class="photo-image">
+                <img src="assets/building.png" alt="Buildings">
+                <div class="label">Anonymous</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="photo-styling-section">
+        <h2>Make your photos more stylish</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+
+        <div class="cards-container">
+            <div class="card">
+                <img src="assets/backlit.png" alt="Image 1">
+                <h3>Sed ut perspiciatis</h3>
+                <p>Nemo enim ipsam voluptatem aut fugit sed quia consequuntur.</p>
+            </div>
+            <div class="card">
+                <img src="assets/businessman.png" alt="Image 2">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="card">
+                <img src="assets/hands.png" alt="Image 3">
+                <h3>Nemo enim ipsam</h3>
+                <p>Consequuntur magni dolores eos qui ratione voluptatem.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free Trial Section -->
+    <section id="pricing" class="free-trial-section">
+        <h2>Ready to take a free trial?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+
+        <div class="form-section">
+            <form id="registrationForm" novalidate>
+                <div class="form-group">
+                    <div class="input-container">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="firstName" name="first_name" placeholder="First Name" required>
+                    </div>
+                    <span class="error-message" id="firstNameError"></span>
+                </div>
+
+                <div class="form-group">
+                    <div class="input-container">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="lastName" name="last_name" placeholder="Last Name" required>
+                    </div>
+                    <span class="error-message" id="lastNameError"></span>
+                </div>
+
+                <div class="form-group">
+                    <div class="input-container">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <span class="error-message" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                    <div class="input-container">
+                        <i class="fas fa-phone"></i>
+                        <input type="text" id="phone" name="phone_number" placeholder="Phone Number" required>
+                    </div>
+                    <span class="error-message" id="phoneError"></span>
+                </div>
+
+                <div class="form-group">
+                    <div class="input-container">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                    </div>
+                    <span class="error-message" id="passwordError"></span>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Register</button>
+                </div>
+                
+            </form>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer id="footer" class="footer-section">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Social</h3>
+                <ul class="social-links">
+                    <li><a href="#"><img src="icons/facebook.png" alt="Facebook">Facebook</a></li>
+                    <li><a href="#"><img src="icons/twitter.png" alt="Twitter">Twitter</a></li>
+                    <li><a href="#"><img src="icons/instagram.png" alt="Instagram">Instagram</a></li>
+                    <li><a href="#"><img src="icons/linkedin.png" alt="LinkedIn">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Registration Form. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
